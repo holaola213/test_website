@@ -1,0 +1,177 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+div{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a:visited{
+    color: white;
+}
+
+button{
+    background-color: #3882f6;
+    cursor:pointer;
+    padding: 12px 24px;
+    border: 2px solid white;
+    color: white;
+    border-radius: 5px;
+}
+
+/* header */
+#image1{
+    width: 600px;
+    height: 250px;
+    margin-right: 10%;
+}
+
+#small-pic{
+    width: 250px;
+    height: 250px;
+    margin-bottom: 12px;
+    border: 1px rgb(190, 190, 190) dotted;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    background-color: #1f2937;
+    color: white;
+    align-items: baseline;
+}
+
+.header-logo{
+    font-size: 18px;
+    color: #f9faf8;
+    margin: 5px 19%;
+}
+
+.link{
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.link-container{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 10px;
+    margin: 5px 19%;
+}
+
+/* first section */
+.first-section{
+    background-color: #1f2937;
+    color:white;
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+    padding: 32px;
+    margin-bottom: 16px;
+}
+
+.paragraph{
+    gap: 12px;
+    display:flex;
+    flex-direction: column;
+    width: 30%;
+    margin-left: 10%;
+}
+
+.paragraph-title{
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.paragraph.text{
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+/* second section */
+.second-section{
+    color: black;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 16px;
+}
+
+.info-title{
+    font-size: 36px;
+    font-weight: 900;
+}
+
+.pics{
+    display: flex;
+    justify-content: center;
+    align-items:flex-start;
+    gap: 52px;  
+    margin: 32px;
+    width: 250px;
+}
+
+.pic-text{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* third section */
+.third-section{
+    background-color: #e5e7eb;
+    background-image:url("https://media.npr.org/assets/img/2017/01/15/king-speech_custom-4fabdf1a0c3778d1b25750c1593f10a6ac7ed391.jpg");
+    background-size: cover;
+    background-blend-mode: multiply;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.quote{
+    font-size: 36px;
+    font-family: 'Times New Roman', Times, serif;
+    max-width: 50%;
+}
+
+.author{
+    font-weight: 900;
+    margin-left: 40%;
+}
+
+/* fourth section */
+.fourth-section{
+    background-color: #3882f6;
+    color: white;
+    width: 60%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 50px 19%;
+}
+
+.call-title{
+    font-size: larger;
+    font-weight: 900;
+}
+
+.test-container{
+    flex-direction: column;
+}
+
+/* footer */
+.footer{
+    background-color: #1f2937;
+    color: white;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
