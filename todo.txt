@@ -1,0 +1,5 @@
+If u want: 
+
+-fix button size
+-fix tab name 
+-fix hyperlink color (if not clicked yet, it'll be blue instead of intended white)
